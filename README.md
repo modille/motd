@@ -18,3 +18,7 @@ MOTD_SCRIPT="$HOME/git/github.com/modille/motd/motd.sh"
 ```
 
 Then open a new terminal tab. :tada:
+
+## TODO
+
+- [ ] Consider replacing `/etc/motd` instead of sourcing from `~/.zshrc`
