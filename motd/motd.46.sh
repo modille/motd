@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 
 print -P ""
-print -P "         %F{6}%K{6}----%f%k"
-print -P "         %F{6}%K{6}----%f%k"
-print -P "     %F{4}%K{4}----%f%k    %F{2}%K{2}----%f%k"
-print -P "     %F{4}%K{4}----%f%k    %F{2}%K{2}----%f%k"
-print -P " %F{5}%K{5}----%f%k            %F{3}%K{3}----%f%k  [%F{4}#%f46] %BRefactor Early, Refactor Often%b"
-print -P " %F{5}%K{5}----%f%k            %F{3}%K{3}----%f%k  Just as you might weed and rearrange a garden, rewrite, rework, and re-architect code when it needs it. Fix the root of the problem."
-print -P "     %F{17}%K{17}----%f%k    %F{16}%K{16}----%f%k"
-print -P "     %F{17}%K{17}----%f%k    %F{16}%K{16}----%f%k"
-print -P "         %F{1}%K{1}----%f%k"
-print -P "         %F{1}%K{1}----%f%k"
+print -P "  %F{5}■ %F{4}■ %F{6}■ %F{2}■%f%k  [%F{4}#%f46] %B%{\x1b[3m%}Refactor Early, Refactor Often%{\x1b[0m%}%b"
+print -P "  %F{17}■ %F{1}■ %F{5}■ %F{16}■%f%k  Just as you might weed and rearrange a garden, rewrite, rework, and re-architect code when it needs it. Fix the root of the problem."
 print -P ""

@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 
 print -P ""
-print -P "         %F{6}%K{6}----%f%k"
-print -P "         %F{6}%K{6}----%f%k"
-print -P "     %F{4}%K{4}----%f%k    %F{2}%K{2}----%f%k"
-print -P "     %F{4}%K{4}----%f%k    %F{2}%K{2}----%f%k"
-print -P " %F{5}%K{5}----%f%k            %F{3}%K{3}----%f%k  [%F{4}#%f53] %BUse a Project Glossary%b"
-print -P " %F{5}%K{5}----%f%k            %F{3}%K{3}----%f%k  Create and maintain a single source of all the specific terms and vocabulary for a project."
-print -P "     %F{17}%K{17}----%f%k    %F{16}%K{16}----%f%k"
-print -P "     %F{17}%K{17}----%f%k    %F{16}%K{16}----%f%k"
-print -P "         %F{1}%K{1}----%f%k"
-print -P "         %F{1}%K{1}----%f%k"
+print -P "  %F{5}■ %F{4}■ %F{6}■ %F{2}■%f%k  [%F{4}#%f53] %B%{\x1b[3m%}Use a Project Glossary%{\x1b[0m%}%b"
+print -P "  %F{17}■ %F{1}■ %F{5}■ %F{16}■%f%k  Create and maintain a single source of all the specific terms and vocabulary for a project."
 print -P ""
